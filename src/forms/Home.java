@@ -258,10 +258,8 @@ public class Home extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Payroll Management System | Home");
         setLocation(new java.awt.Point(100, 0));
-        setMaximumSize(new java.awt.Dimension(1200, 700));
         setMinimumSize(new java.awt.Dimension(1200, 700));
         setName("Home"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(1200, 700));
         setResizable(false);
         getContentPane().setLayout(null);
 
@@ -292,7 +290,7 @@ public class Home extends javax.swing.JFrame {
         intFrame_employee_new.getContentPane().add(btn_add);
         btn_add.setBounds(867, 525, 120, 23);
 
-        panel_empDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_empDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "New Employee Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_empId.setText("Employee ID*");
 
@@ -453,9 +451,9 @@ public class Home extends javax.swing.JFrame {
         intFrame_employee_new.getContentPane().add(panel_empDetails);
         panel_empDetails.setBounds(60, 40, 470, 550);
 
-        panel_salDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_salDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Salary Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
-        panel_basicSal.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 14), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_basicSal.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Basic Salary", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 14), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_salType.setText("Salary Type");
 
@@ -555,7 +553,7 @@ public class Home extends javax.swing.JFrame {
         intFrame_employee_update.getContentPane().add(btn_search_update);
         btn_search_update.setBounds(637, 523, 150, 23);
 
-        panel_empUpdate.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_empUpdate.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Update Employee Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_empId1.setText("Employee ID");
 
@@ -691,9 +689,9 @@ public class Home extends javax.swing.JFrame {
         intFrame_employee_update.getContentPane().add(panel_empUpdate);
         panel_empUpdate.setBounds(40, 40, 470, 570);
 
-        panel_salUpdate.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_salUpdate.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Update Salary Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
-        panel_basicSal_update.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 14), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_basicSal_update.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Update Basic Salary", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 14), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_salType_update.setText("Salary Type");
 
@@ -765,7 +763,7 @@ public class Home extends javax.swing.JFrame {
         intFrame_employee_search.setPreferredSize(new java.awt.Dimension(800, 500));
         intFrame_employee_search.setVisible(false);
 
-        jScrollPane_tableContainer.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 20))); // NOI18N
+        jScrollPane_tableContainer.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Employee Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 20))); // NOI18N
 
         btn_searchEmp.setText("Search Employee");
         btn_searchEmp.addActionListener(new java.awt.event.ActionListener() {
@@ -812,7 +810,7 @@ public class Home extends javax.swing.JFrame {
         intFrame_payroll.setPreferredSize(new java.awt.Dimension(800, 500));
         intFrame_payroll.setVisible(false);
 
-        panel_empDetails_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_empDetails_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Employee Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_empId_allowance.setText("Employee ID");
 
@@ -918,7 +916,7 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        panel_salAllow_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_salAllow_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Salary Allowances", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_travel.setText("Travel Allowance");
 
@@ -1016,7 +1014,7 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        panel_salDeduct_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_salDeduct_payroll.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Salary Deductions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_epf.setText("EPF");
 
@@ -1197,6 +1195,8 @@ public class Home extends javax.swing.JFrame {
         intFrame_print.setPreferredSize(new java.awt.Dimension(800, 500));
         intFrame_print.setVisible(false);
 
+        panel_details.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
+
         jLabel1.setText("Name :");
 
         jLabel3.setText("Employee ID :");
@@ -1246,6 +1246,7 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
+        panel_plus.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         panel_plus.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel13.setText("+ Travel Allowance");
@@ -1287,6 +1288,7 @@ public class Home extends javax.swing.JFrame {
         jLabel32.setText("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         panel_plus.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 212, 543, -1));
 
+        panel_minus.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         panel_minus.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel24.setText("- EPF");
@@ -1323,6 +1325,8 @@ public class Home extends javax.swing.JFrame {
 
         lbl_pay_deduct.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         panel_minus.add(lbl_pay_deduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 230, -1, -1));
+
+        panel_net.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         jLabel38.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel38.setText("Net Pay :");
@@ -1423,7 +1427,7 @@ public class Home extends javax.swing.JFrame {
         intFrame_leave.setPreferredSize(new java.awt.Dimension(800, 500));
         intFrame_leave.setVisible(false);
 
-        panel_empDetails_payroll1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_empDetails_payroll1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Employee Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_empId_allowance1.setText("Employee ID");
 
@@ -1502,7 +1506,7 @@ public class Home extends javax.swing.JFrame {
                 .addGap(33, 33, 33))
         );
 
-        panel_salAllow_payroll1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, null, null, null, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
+        panel_salAllow_payroll1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Leave Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 18), new java.awt.Color(255, 0, 0))); // NOI18N
 
         lbl_travel1.setText("Annual Leave");
 
@@ -1684,24 +1688,24 @@ public class Home extends javax.swing.JFrame {
         intFrame_leave.setBounds(0, 0, 1200, 680);
 
         lbl_pms.setFont(new java.awt.Font("URW Palladio L", 1, 48)); // NOI18N
-        lbl_pms.setForeground(new java.awt.Color(36, 121, 158));
+        lbl_pms.setForeground(new java.awt.Color(0, 102, 102));
         lbl_pms.setText("Payroll Management System");
         getContentPane().add(lbl_pms);
-        lbl_pms.setBounds(280, 510, 710, 60);
+        lbl_pms.setBounds(290, 560, 710, 60);
 
-        lbl_copyright.setText("Designed and Developed By : Avishka Perera (10541959)");
+        lbl_copyright.setText("Designed and Developed By : group 10");
         getContentPane().add(lbl_copyright);
-        lbl_copyright.setBounds(420, 570, 360, 16);
+        lbl_copyright.setBounds(10, 70, 220, 20);
 
         lbl_welcome.setFont(new java.awt.Font("URW Palladio L", 0, 36)); // NOI18N
         lbl_welcome.setForeground(new java.awt.Color(11, 125, 170));
         lbl_welcome.setText("Welcome to");
         getContentPane().add(lbl_welcome);
-        lbl_welcome.setBounds(500, 480, 260, 30);
+        lbl_welcome.setBounds(10, 30, 260, 30);
 
-        lbl_background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/forms/images/home.jpg"))); // NOI18N
+        lbl_background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/forms/images/mau-bang-luong-nhan-vien.jpg"))); // NOI18N
         getContentPane().add(lbl_background);
-        lbl_background.setBounds(0, 0, 1200, 700);
+        lbl_background.setBounds(0, -30, 1200, 700);
 
         menu_menuBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
