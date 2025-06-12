@@ -9,7 +9,7 @@ public class DbConnection {
     
     // Sử dụng driver mới nhất (MySQL Connector/J 8.0+)
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/payroll?useSSL=false&serverTimezone=UTC";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/payroll?allowPublicKeyRetrieval=true&useSSL=false";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "Hien*26102004";
     

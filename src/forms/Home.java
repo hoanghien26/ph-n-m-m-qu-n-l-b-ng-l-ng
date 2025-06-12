@@ -233,7 +233,6 @@ public class Home extends javax.swing.JFrame {
         btn_search_leave = new javax.swing.JButton();
         btn_apply_leave = new javax.swing.JButton();
         btn_exit_leave = new javax.swing.JButton();
-        lbl_pms = new javax.swing.JLabel();
         lbl_copyright = new javax.swing.JLabel();
         lbl_welcome = new javax.swing.JLabel();
         lbl_background = new javax.swing.JLabel();
@@ -1687,12 +1686,6 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(intFrame_leave);
         intFrame_leave.setBounds(0, 0, 1200, 680);
 
-        lbl_pms.setFont(new java.awt.Font("URW Palladio L", 1, 48)); // NOI18N
-        lbl_pms.setForeground(new java.awt.Color(0, 102, 102));
-        lbl_pms.setText("Payroll Management System");
-        getContentPane().add(lbl_pms);
-        lbl_pms.setBounds(290, 560, 710, 60);
-
         lbl_copyright.setText("Designed and Developed By : group 10");
         getContentPane().add(lbl_copyright);
         lbl_copyright.setBounds(10, 70, 220, 20);
@@ -1703,7 +1696,7 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(lbl_welcome);
         lbl_welcome.setBounds(10, 30, 260, 30);
 
-        lbl_background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/forms/images/mau-bang-luong-nhan-vien.jpg"))); // NOI18N
+        lbl_background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/forms/images/salary-payroll-system-illustration-vector.jpg"))); // NOI18N
         getContentPane().add(lbl_background);
         lbl_background.setBounds(0, -30, 1200, 700);
 
@@ -2550,7 +2543,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JLabel lbl_paye;
     private javax.swing.JLabel lbl_performance;
     private javax.swing.JLabel lbl_performance1;
-    private javax.swing.JLabel lbl_pms;
     private javax.swing.JLabel lbl_salAmount;
     private javax.swing.JLabel lbl_salAmount_update;
     private javax.swing.JLabel lbl_salType;
